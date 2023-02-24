@@ -1,0 +1,50 @@
+.wifi {
+    /*position: relative;*/
+    background-color: white;
+    height: 775px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.bag--wifi{
+    background-color: white;
+}
+
+
+
+.wifi__left {
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    /*right: 55%;*/
+  
+}
+
+.button--wifi {
+    margin-top: 20px;
+ 
+
+}
+
+.wifi__leftLine1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #807F81;
+}
+
+.wifi__leftLine2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin-top: 24px;
+}
+.wifi__leftLine3{
+    margin-top: 24px;
+}

@@ -1,0 +1,84 @@
+.features {
+    background-color: white;
+    /*height: 627px;*/
+
+
+}
+.bag--features{
+    background-color: white;
+}
+
+.blok {
+    /*position: absolute;*/
+   /* width: 1073px;
+    height: 415px;
+    top: 110px;
+    left: 10%;*/
+    /*display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-top: 10%;*/
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height: 627px;
+
+ 
+
+  
+    
+   
+
+}
+
+.feature__bloc {
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-around;
+    width: 293px;
+    height: 335px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.preview {
+    /*position: absolute;*/
+    /*left: 30px;*/
+    width: 124px;
+    height: 150px;
+}
+
+
+.feature__blocText {
+    /*position: absolute;*/
+   /* top: 180px;*/
+    text-align: center;
+    padding: 5px;
+}
+
+.feature__blocLink {
+    /*position: absolute;*/
+    /*top: 310px;
+    left: 32%;*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #3041C4;
+}
+
+.feature__bloc:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 4px 0px rgb(200, 194, 194);
+    padding-bottom: 25px;
+    border-radius: 5%;
+}

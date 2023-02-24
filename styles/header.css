@@ -1,0 +1,215 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9D9EB;
+    height: 710px;
+    width: 100%;
+
+
+
+}
+
+.bag--header {
+    background-color: #F9D9EB;
+}
+
+.header__top {
+    /*position: absolute;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+
+}
+
+.header__Humburger {
+    visibility: hidden;
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+.header__HumburgerIcon {
+    background-color: #F9D9EB;
+    border: 0;
+    padding-bottom: 10px;
+
+}
+
+.header__HumburgerItem {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.header__HumburgerItem a {
+    text-decoration: none;
+    display: block;
+    color: #2B292D;
+    font-size: 20px;
+
+}
+
+.header__Humburger:hover .header__HumburgerItem {
+    display: block;
+}
+
+.header__topLogo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.header__topTitle {
+    /*position: absolute;
+    top: 6px;
+    left: 70px;*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.header__topTitleName {
+    font-weight: 900;
+
+}
+
+.header__topTitleDescr {
+    color: #2B292D99;
+
+}
+
+.header__topTitleMenu {
+    /*position: absolute;*/
+    display: flex;
+    /*left: 600px;*/
+    justify-content: space-around;
+    align-items: center;
+    /*top: 13px;*/
+
+
+}
+
+.header__topTitleMenu a {
+    padding-right: 10px;
+}
+
+.header__topTitleMenu__item {
+    text-decoration: none;
+    color: #2B292D;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.header__topTitleMenu__item--bold {
+    font-weight: 900;
+}
+
+
+
+.button {
+    /*position: absolute;*/
+    width: 160px;
+    height: 48px;
+    /* left: 900px;
+    top: 10px;*/
+    background-color: #3040C4;
+    border: 0;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+
+}
+
+.header__bot {
+    /*position: absolute;*/
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    /* top: 90px;*/
+
+}
+
+.header__botText {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.header__botButtons {
+    display: flex;
+    justify-content: space-around;
+    width: 390px;
+
+}
+
+.imagHeader {
+    position: absolute;
+    left: 37.6%;
+    transform-style: flat;
+    /*position: absolute;
+    top: 56px;
+    left: 32%;*/
+
+}
+
+.imagHeader__im {
+    border-radius: 5px;
+    transform: rotateX(60deg);
+    position: relative;
+    animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotateX(0deg);
+    }
+}
+
+.header__botCaption {
+    /*position: absolute;*/
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    /*top: 30px;*/
+
+
+}
+
+.header__botDescr {
+    /*position: absolute;*/
+    width: 456px;
+    height: 102px;
+    /*top: 230px;*/
+
+}
+
+.button--bot2 {
+    /*position: absolute;*/
+    background-color: white;
+    color: #3040C4;
+    /*left: 15%;
+    top: 390px;*/
+}

@@ -1,0 +1,41 @@
+@import url(header.css);
+@import url(features.css);
+@import url(categories.css);
+@import url(wifi.css);
+@import url(trial.css);
+@import url(footer.css);
+@import url(media.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    
+    
+}
+.bag{
+    max-width: 2560px;
+    width: 100%;
+    /*min-width: 500px;*/
+ 
+
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    
+}
+
+
+
+    
+
