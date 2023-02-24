@@ -9,4 +9,4 @@ Startup landing template
 + images folder contains all project images 
 + styles folder contains css file for each section of the landing page including a separate css file for adoptation
 ## Installation
-+ Go to public github here:
++ Use this link to download the project: https://github.com/MaxPavlushenko/Foundation.git
